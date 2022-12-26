@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Catalogue>
+	<Book ID="BK101">
+		<Author>
+			Gambardella Matthew
+		</Author>
+		<Title>
+			XML Developers Guide
+		</Title>
+		<Genre>
+			Computer
+		</Genre>
+		<Price>
+			44.95
+		</Price>
+		<Publish_Date>
+			2000-11-01
+		</Publish_Date>
+		<Description>
+			A guide for developers on how to create applications using XML.
+		</Description>
+	</Book>
+	<Book ID="BK107">
+		<Author>SOHAILA</Author>
+		<Title>
+			bla
+		</Title>
+		<Genre>
+			Science
+		</Genre>
+		<Price>50.0</Price>
+		<Publish_Date>2001-12-21</Publish_Date>
+		<Description>
+			bla bla bla
+		</Description>
+	</Book>
+	<Book ID="BK105">
+		<Author>
+			so
+		</Author>
+		<Title>
+			bla
+		</Title>
+		<Genre>Science</Genre>
+		<Price>50.0</Price>
+		<Publish_Date>2001-02-21</Publish_Date>
+		<Description>
+			can't think of any thing now
+		</Description>
+	</Book>
+	<Book ID="BK111">
+		<Author>
+			artist
+		</Author>
+		<Title>
+			art
+		</Title>
+		<Genre>
+			Science
+		</Genre>
+		<Price>22.0</Price>
+		<Publish_Date>1999-11-30</Publish_Date>
+		<Description>
+			bla bla bla
+		</Description>
+	</Book>
+	<Book ID="BK108">
+		<Author>
+			bebo
+		</Author>
+		<Title>
+			story
+		</Title>
+		<Genre>
+			Drama
+		</Genre>
+		<Price>
+			30.0
+		</Price>
+		<Publish_Date>
+			2003-05-13
+		</Publish_Date>
+		<Description/>
+	</Book>
+</Catalogue>
