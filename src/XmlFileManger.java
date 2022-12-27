@@ -312,6 +312,37 @@ public class XmlFileManger {
     }
 
     public void sortById() {
+      ArrayList ids = retriveIDs();
+        List<String> sortedIDs = (List<String>) ids.stream().sorted().collect(Collectors.toList());
+
+        ArrayList<Book> results = new ArrayList<>();
+        ArrayList<Book> books = retriveBooks();
+
+        for (String id : sortedIDs ){
+            for (int i = 0 ;i<sortedIDs.size();i++){
+                if(books.get(i).getId().equals(id)){
+                    //System.out.println(books.get(i).title);
+                    results.add(books.get(i));
+
+
+                }
+
+            }
+
+
+        }
+        for (Book book : results) {
+            System.out.println("Id : " + book.getId());
+            System.out.println("Author : " + book.getAuthor());
+            System.out.println("Title : " + book.getTitle());
+            System.out.println("Genre : " + book.getGenre());
+            Format formatter = new SimpleDateFormat("yyyy-MM-dd");
+            String date = formatter.format(book.getPublish_Date());
+            System.out.println("Publish Date : " + date);
+            System.out.println("Price : " + book.getPrice());
+            System.out.println("Description : " + book.getDescription());
+            System.out.println("=========================================");
+        }
 
     }
 
