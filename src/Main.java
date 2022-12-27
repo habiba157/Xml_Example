@@ -295,21 +295,21 @@ public class Main {
                     break;
                 case 4:
                     int sortChoice = 10;
-                    while (sortChoice != 0) {
-                        System.out.println("1- sort by ID");
-                        System.out.println("2- sort by auther");
-                        System.out.println("3- sort by title");
-                        System.out.println("4- sort by genre");
-                        System.out.println("4- sort by published date");
-                        System.out.println("0- exit");
+                    System.out.println("1- sort by ID");
+                        //System.out.println("2- sort by auther");
+                        //System.out.println("3- sort by title");
+                        //System.out.println("4- sort by genre");
+                        //System.out.println("4- sort by published date");
+                        System.out.println("2- back");
+                        sortChoice = sc.nextInt();
                         switch (sortChoice) {
+                            //Main.xmlBooksFile.compare(Main.xmlBooksFile.retriveBooks());
                             case 1:
                                 Main.xmlBooksFile.sortById();
+                            case 2:
                                 break;
 
-                            default:
-                                break;
-                        }
+
                     }
                     break;
                 case 5:
